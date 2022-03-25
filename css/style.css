@@ -1,0 +1,313 @@
+/**
+Theme Name:Brillant Cleaning
+Theme URL:http://brillantcleaning.dmjtechnology.tech
+Author: Darwin Quishpe
+Author URL:http://portafolio.dmjtechnology.tech/
+Description: Sitio web Brillant Cleaning
+Version: 1.0
+**/
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+
+header {
+    background: url(../img/cleanf.png), #1e2b38;
+    background-size: cover;
+    background-position: center 0;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+header .redes1 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background: rgba(36, 151, 66, 0.70);
+    color: #fff;
+    padding: 10px;
+}
+
+header .correo {
+    width: 30%;
+    margin-left: 20px;
+}
+
+header .telf {
+    width: 33%;
+    text-align: center;
+}
+
+header .sociales {
+    width: 33%;
+    text-align: end;
+}
+
+header .sociales a {
+    color: #000;
+    font-size: 20px;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+header nav {
+    background: rgba(0, 0, 0, 0.53);
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+header nav .logo {
+    width: 20%;
+    text-align: center;
+}
+
+header nav .logo img {
+    width: 100%;
+}
+
+header nav .menu a {
+    color: #fff;
+    display: inline-block;
+    margin-left: 20px;
+    text-decoration: none;
+    font-weight: lighter;
+}
+
+header nav .menu a:hover {
+    text-decoration: underline;
+}
+
+header .textos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-top: 300px;
+    margin-bottom: 50px;
+}
+
+header .textos .titutlo, .contenedor-btns {
+    width: 100%;
+    color: #fff;
+}
+
+header .textos .contenedor-btns a {
+    text-decoration: none;
+    border-radius: 4px;
+    border: 2px solid #fff;
+    color: #fff;
+    padding: 12px 0;
+    font-weight: 600;
+    width: 235px;
+    display: inline-block;
+    text-align: center;
+    margin: 0px 10px;
+}
+
+header .textos .contenedor-btns a:hover {
+    background: #fff;
+    color: #000;
+}
+
+main {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+main .about h3 {
+    font-weight: 100;
+}
+
+main .about p {
+    text-justify: inter-word;
+    margin: auto;
+    width: 90%;
+    max-width: 500px;
+}
+
+main .clientes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    text-align: center;
+}
+
+main .clientes .fila1 {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    max-width: 1000px;
+    color: #007200;
+    margin: auto;
+    font-size: 2em;
+    margin-bottom: -20px;
+}
+
+main .clientes .fila2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1000px;
+    font-size: 1em;
+    margin: auto;
+}
+
+main .services {
+    background: #003D37;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+main .services .contenedor {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 1300px;
+    margin: auto;
+    width: 90%;
+}
+
+main .services h2 {
+    width: 100%;
+    color: #fff;
+}
+
+main .services .banner1 {
+    width: 20%;
+    background: #fff;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    margin: auto;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 1px 2px 10px #000;
+}
+
+main .services .banner1 img {
+    width: 100%;
+}
+
+main .services .banner1 a {
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main .gallery {
+    padding: 20px;
+    margin-top: 20px;
+}
+
+main .contact {
+    background: url(../img/cleanf.png), #1e2b38;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+main .contact h2 {
+    width: 100%;
+}
+
+main .contact .map {
+    width: 50%;
+}
+
+main .contact .formulario {
+    width: 50%;
+    background: rgba(0, 0, 0, 0.53);
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+main .contact .formulario input {
+    display: block;
+}
+
+main .contact .formulario textarea, input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 3px;
+    border: 1px solid #226fc1;
+    font-size: 16px;
+    font-family: Arial;
+}
+
+main .contact .formulario textarea {
+    min-height: 120px;
+    max-height: 300px;
+    min-width: 100%;
+    max-width: 100%;
+}
+
+main .contact .formulario textarea:focus {
+    border: 2px solid #4fb560;
+}
+
+main .contact .formulario .btn {
+    width: 200px;
+    margin: 0 auto;
+    padding: 10px;
+    border: 1px solid #4fb560;
+    color: #4fb560;
+    background: none;
+    cursor: pointer;
+    border-radius: 3px;
+    font-size: 16px;
+}
+
+main .contact .formulario .btn:hover {
+    background: #4fb560;
+    color: #fff;
+}
+
+footer {
+    background: #000;
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+footer h2 {
+    width: 100%;
+    text-align: center;
+}
+
+footer .pie {
+    max-width: 1300px;
+    margin: auto;
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+footer .pie ul {
+    width: 33%;
+    list-style: none;
+    padding: 20px;
+}
